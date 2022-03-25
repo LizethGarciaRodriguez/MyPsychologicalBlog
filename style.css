@@ -1,0 +1,67 @@
+* {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    margin: 0rem 4rem;
+}
+
+li {
+    width: 4rem;
+    height: 2rem;
+    margin: 0rem 2.5rem;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+#size-image {
+    background-image: url("/img/Fondo.jpg");
+    height: 520px;
+    width: 700px;
+    background-size: cover;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.centrar-texto {
+    height: 500px;
+    width: 900px;
+    padding: 8rem;
+    margin-left: 20rem;
+}
+.centrar-video {
+    margin: 2rem 12rem 2rem 12rem;
+}
+.size-parrafo {
+    margin: 3rem 0rem 1.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00B7C5;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+    background-color: #010068;   
+  }
+
+.observacionCientifica {
+    background-image: url("./img/ObservacionCientifica.jpg");
+    height: 659px;
+    width: 1280px;
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+}
