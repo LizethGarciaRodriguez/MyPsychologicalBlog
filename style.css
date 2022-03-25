@@ -21,7 +21,7 @@ li {
 }
 
 #size-image {
-    background-image: url("/img/Fondo.jpg");
+    background-image: url("./img/Fondo.jpg");
     height: 520px;
     width: 700px;
     background-size: cover;
