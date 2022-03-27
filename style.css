@@ -122,3 +122,17 @@ li {
 .color-nabvar {
     background: #CD4188;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
