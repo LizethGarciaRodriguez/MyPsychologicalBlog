@@ -2,12 +2,30 @@
     font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .bold {
     font-weight: bold;
 }
 
 .center {
     margin: 0rem 4rem;
+}
+
+#texto-unidad-dos {
+    width: 500px;
+    height: 400px;
+}
+
+#size-image-unidaddos {
+    background-image: url("img/unidaddos.jpeg");
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    margin: 9rem 0rem 0rem 36rem;
 }
 
 li {
@@ -20,20 +38,35 @@ li {
     display: block;
 }
 
+.posicion-fija {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
 #size-image {
     background-image: url("./img/Fondo.jpg");
     height: 520px;
     width: 700px;
     background-size: cover;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 6rem 2rem 2rem 2rem;
     padding: 0rem 2rem 0rem 2rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#image-unidad-dos {
+    width: 28rem;
+    height: 28rem;
+    margin-top: -20rem;
+    background-repeat: no-repeat;
+    margin-left: 46rem;
     border-radius: 10px 10px 10px 10px;
 }
 
 .centrar-texto {
     height: 500px;
     width: 900px;
-    padding: 8rem;
+    padding: 7rem;
     margin-left: 20rem;
 }
 .centrar-video {
@@ -43,7 +76,7 @@ li {
     margin: 3rem 0rem 1.5rem;
     font-size: 20px;
     font-weight: bold;
-    color: #00B7C5;
+    color: #5ABAB6;
 
 }
 
@@ -53,15 +86,39 @@ li {
   
   .dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-    background-color: #010068;   
+    /*pointer-events: none;*/  
   }
 
 .observacionCientifica {
-    background-image: url("./img/ObservacionCientifica.jpg");
-    height: 659px;
-    width: 1280px;
-    margin: 2rem 2rem 2rem 2rem;
+    height: 600px;
+    width: 1100px;
+    margin: 3rem 3rem 5rem 4rem;
     border-radius: 10px 10px 10px 10px;
     background-repeat: no-repeat;
+}
+
+.carousel-inner > .carousel-item .im1 {
+    background: url("img/pelicula.jpg");
+}
+
+.carousel-inner > .carousel-item.im2 {
+    background: url("img/carrusel1.jpg");
+}
+
+.carousel-inner > .carousel-item.im3 {
+    background: url("img/carrusel2.jpg");
+}
+.carousel-inner > .carousel-item .img-size {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20em;
+    height: 20em;
+} 
+.carousel-inner {
+    display: grid;
+    justify-content: center;
+}
+.color-nabvar {
+    background: #CD4188;
 }
