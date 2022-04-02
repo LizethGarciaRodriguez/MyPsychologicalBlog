@@ -136,3 +136,9 @@ table {
     text-align: center;
     padding: 8px;
   }
+
+#logo {
+    width: 8rem;
+    height: 4rem;
+    margin-left: 65rem;
+}
