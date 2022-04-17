@@ -67,7 +67,7 @@ li {
 #image-unidad-dos {
     width: 28rem;
     height: 28rem;
-    margin-top: -20rem;
+    margin-top: -23rem;
     background-repeat: no-repeat;
     margin-left: 52rem;
     border-radius: 10%;
@@ -107,6 +107,15 @@ li {
     margin: -5rem 0rem 0rem 5rem;
     border-radius: 10px 10px 10px 10px;
     background-repeat: no-repeat;
+}
+
+.redondear-imagen {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border: 8px solid white;
+
 }
 
 .carousel-inner > .carousel-item .im1 {
